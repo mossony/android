@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shrinkColumns="2"
+    android:stretchColumns="0, 1, 2"
+    android:collapseColumns="2"
+    android:rowCount="6"
+    android:columnCount="4"
+    >
+
+
+    <TextView
+        android:text="0"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="50sp"
+        android:layout_columnSpan="4"/>
+
+    <Button
+        android:text="Clear"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="4"/>
+
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+    <Button android:text="1" />
+
+
+
+
+</GridLayout>

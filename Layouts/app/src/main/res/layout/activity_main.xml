@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/myFont"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <!--static call-->
+    <fragment
+        android:id="@+id/image_fragment"
+        android:name="boyangwan.tk.layouts.ImageViewFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_weight="1">
+
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/text_fragment"-->
+<!--        android:name="boyangwan.tk.layouts.TextViewFragment"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="0">-->
+<!--    </fragment>-->
+
+    <!--dynamic call-->
+    <HorizontalScrollView
+        android:id="@+id/listFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

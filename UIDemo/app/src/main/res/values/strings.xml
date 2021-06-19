@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UIDemo</string>
+    <string name="info">GitHub
+                        \n github.com
+                        \n <i>Bilibili</i>
+                        \n bilibili.com</string>
+</resources>
