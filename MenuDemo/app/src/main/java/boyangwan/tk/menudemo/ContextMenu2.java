@@ -61,7 +61,7 @@ public class ContextMenu2 extends AppCompatActivity {
             public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
                 return false;
             }
-            
+
 
             @SuppressLint("NonConstantResourceId")
             @Override
