@@ -18,6 +18,36 @@
         android:id="@+id/button2"
         android:onClick="onClick"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="data=url"
+        android:id="@+id/button5"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="data=contact"
+        android:id="@+id/button6"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Contact"
+        android:id="@+id/button7"
+        android:onClick="onClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category=calendar"
+        android:id="@+id/button8"
+        android:onClick="onClick"/>
+
+
+
 
 
 </LinearLayout>

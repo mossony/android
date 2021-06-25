@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="boyangwan.tk.intentdemo1">
+    package="boyangwan.tk.intentdemo3">
 
     <application
         android:allowBackup="true"
@@ -8,14 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.IntentDemo1">
-        <activity android:name=".B_Activity">
-            <intent-filter>
-                <action android:name="button_2_action" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".A_Activity" />
+        android:theme="@style/Theme.IntentDemo3">
+        <activity android:name=".SecondActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
