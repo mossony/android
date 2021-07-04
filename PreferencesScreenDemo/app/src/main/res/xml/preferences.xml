@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="Update Settings"
+        android:summary="Replace">
+
+        <CheckBoxPreference
+            android:key="preference_update"
+            android:title="Data upodate"
+            android:summary="Turn on or turn off data update"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:dependency="preference_update"
+            android:defaultValue="1000"
+            android:key="update_interval"
+            android:title="Time interval"
+            android:summary="Time interval of updating data"
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="second_category"
+        android:title="Welcome info">
+
+        <EditTextPreference
+            android:key="welcome_message"
+            android:title="Set welcome info"
+            android:summary="Define welcome info"
+            android:defaultValue="Good morning"
+            android:dialogMessage="Welcome info">
+
+        </EditTextPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

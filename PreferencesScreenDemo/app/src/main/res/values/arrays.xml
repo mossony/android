@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="updateInterval">
+        <item name="1000">1s</item>
+        <item name="2000">2s</item>
+        <item name="30000">30s</item>
+        <item name="60000">1min</item>
+        <item name="120000">2min</item>
+    </string-array>
+
+    <string-array name="updateIntervalValues">
+        <item name="1000">1000</item>
+        <item name="2000">2000</item>
+        <item name="30000">30000</item>
+        <item name="60000">60000</item>
+        <item name="120000">120000</item>
+    </string-array>
+
+</resources>
