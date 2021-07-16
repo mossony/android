@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contact_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter info below"
+        android:textSize="26dp"/>
+
+    <EditText
+        android:id="@+id/text1"
+        android:hint="Enter name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/text2"
+        android:hint="Enter phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="queryClick"
+        android:text="Search"/>
+
+    <Button
+        android:id="@+id/inseret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="insertClick"
+        android:text="Insert"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deleteClick"
+        android:text="delete"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="updateClick"
+        android:text="update"/>
+
+    <Button
+        android:id="@+id/queryAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="queryAllClick"
+        android:text="Search all"/>
+
+
+
+</LinearLayout>
