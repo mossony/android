@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         testView2.setColor(Color.RED);
         testView3.setColor(Color.YELLOW);
 
+        testView1.setOnTouchListener(this);
+        testView2.setOnTouchListener(this);
+        testView3.setOnTouchListener(this);
+
         
 
     }
